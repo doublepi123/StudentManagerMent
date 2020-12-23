@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="sqlite-jdbc-3.32.3.2">
+    <archive path="/Users/lcy/IdeaProjects/StudentManagerment/lib/sqlite-jdbc-3.32.3.2.jar" />
+  </library>
+</eclipse-userlibraries>
+
