@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lcy.studentmanagerment.ui.LoginWindowControl">
+   <children>
+      <TextField fx:id="tUsername" layoutX="300.0" layoutY="163.0" />
+      <Text layoutX="162.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="用户名">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="162.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="密码">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Button fx:id="bLogin" layoutX="406.0" layoutY="319.0" mnemonicParsing="false" onAction="#Login" text="登入" />
+      <PasswordField fx:id="tPassword" layoutX="300.0" layoutY="226.0" />
+      <Button fx:id="bSubmission" layoutX="164.0" layoutY="319.0" mnemonicParsing="false" onAction="#submission" text="注册 " />
+      <Text layoutX="200.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="学生信息管理系统">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="479.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Created BY LCY" />
+   </children>
+</AnchorPane>

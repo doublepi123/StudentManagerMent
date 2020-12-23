@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="229.0" prefWidth="184.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lcy.studentmanagerment.ui.MessageBoxControl">
+   <children>
+      <Button fx:id="tExit" layoutX="71.0" layoutY="149.0" mnemonicParsing="false" onAction="#exit" text="确定" />
+      <Text fx:id="tMessage" layoutX="43.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HHH" textAlignment="JUSTIFY" wrappingWidth="99.26953125" />
+   </children>
+</AnchorPane>
