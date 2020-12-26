@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="358.0" prefWidth="304.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lcy.studentmanagerment.ui.AddStudentWindosControl">
+   <children>
+      <TextField fx:id="sno" layoutX="110.0" layoutY="100.0" />
+      <TextField fx:id="sname" layoutX="110.0" layoutY="150.0" />
+      <TextField fx:id="sex" layoutX="110.0" layoutY="200.0" />
+      <Label layoutX="46.0" layoutY="100.0" text="学号">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="150.0" text="姓名">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="200.0" text="性别">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="sdept" layoutX="110.0" layoutY="250.0" />
+      <Label layoutX="46.0" layoutY="250.0" text="专业">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="40.0" prefHeight="42.0" prefWidth="154.0" text="添加学生信息">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="bAdd" layoutX="227.0" layoutY="288.0" mnemonicParsing="false" onAction="#add" text="添加" />
+      <Button fx:id="bQuit" layoutX="48.0" layoutY="288.0" mnemonicParsing="false" onAction="#quit" text="退出" />
+      <Button fx:id="bEmpty" layoutX="136.0" layoutY="288.0" mnemonicParsing="false" onAction="#empty" text="清空" />
+   </children>
+</AnchorPane>

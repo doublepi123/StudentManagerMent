@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="281.0" prefWidth="304.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lcy.studentmanagerment.ui.UpdateCourseControl">
+    <children>
+        <TextField fx:id="cno" layoutX="110.0" layoutY="54.0" />
+        <TextField fx:id="cname" layoutX="110.0" layoutY="150.0" />
+        <TextField fx:id="cex" layoutX="110.0" layoutY="200.0" />
+        <Label layoutX="46.0" layoutY="57.0" text="课程号">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="46.0" layoutY="150.0" text="课程名">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="55.0" layoutY="193.0" text="学分">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="92.0" layoutY="10.0" prefHeight="42.0" prefWidth="154.0" text="修改课程信息">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <Button fx:id="bAdd" layoutX="224.0" layoutY="228.0" mnemonicParsing="false" onAction="#add" text="修改" />
+        <Button fx:id="bQuit" layoutX="50.0" layoutY="228.0" mnemonicParsing="false" onAction="#quit" text="退出" />
+        <Button fx:id="bEmpty" layoutX="139.0" layoutY="228.0" mnemonicParsing="false" onAction="#empty" text="清空" />
+      <Button layoutX="222.0" layoutY="95.0" mnemonicParsing="false" onAction="#find" text="查询" />
+    </children>
+</AnchorPane>
