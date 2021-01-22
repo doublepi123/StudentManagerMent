@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="515.0" prefWidth="559.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lcy.studentmanagerment.ui.FindAllStudentControl">
+    <children>
+        <Button fx:id="exit" layoutX="503.0" layoutY="474.0" mnemonicParsing="false" onAction="#exit" text="退出" />
+      <TextField fx:id="tName" layoutX="82.0" layoutY="157.0" />
+      <TextField fx:id="tID" layoutX="82.0" layoutY="116.0" />
+      <TextField fx:id="tDept" layoutX="82.0" layoutY="204.0" />
+      <Label layoutX="40.0" layoutY="163.0" text="姓名" />
+      <Label layoutX="40.0" layoutY="121.0" text="学号" />
+      <Label layoutX="40.0" layoutY="209.0" text="专业" />
+      <TableView fx:id="table" layoutX="40.0" layoutY="262.0" prefHeight="200.0" prefWidth="463.0">
+        <columns>
+          <TableColumn fx:id="cID" prefWidth="85.0" text="学号" />
+          <TableColumn fx:id="cName" text="姓名" />
+            <TableColumn fx:id="cSex" prefWidth="70.0" text="性别" />
+            <TableColumn fx:id="cDept" prefWidth="225.0" text="专业" />
+        </columns>
+      </TableView>
+      <Button layoutX="440.0" layoutY="196.0" mnemonicParsing="false" onAction="#find" text="查询" />
+      <RadioButton layoutX="443.0" layoutY="152.0" mnemonicParsing="false" onAction="#female" text="女">
+         <toggleGroup>
+            <ToggleGroup fx:id="sex" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton layoutX="350.0" layoutY="152.0" mnemonicParsing="false" onAction="#male" text="男" toggleGroup="$sex" />
+      <Text layoutX="222.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="模糊查询">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

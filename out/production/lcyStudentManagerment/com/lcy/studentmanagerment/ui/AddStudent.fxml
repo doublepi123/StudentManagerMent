@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane onDragDetected="#female" prefHeight="400.0" prefWidth="295.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lcy.studentmanagerment.ui.AddStudentControl">
+   <children>
+      <Button fx:id="exit" layoutX="93.0" layoutY="341.0" mnemonicParsing="false" onAction="#exit" text="退出" />
+      <TextField fx:id="tID" layoutX="93.0" layoutY="114.0" />
+      <TextField fx:id="tName" layoutX="93.0" layoutY="170.0" />
+      <RadioButton layoutX="97.0" layoutY="230.0" mnemonicParsing="false" onAction="#male" text="男">
+         <toggleGroup>
+            <ToggleGroup fx:id="sex" />
+         </toggleGroup>
+      </RadioButton>
+      <TextField fx:id="tDept" layoutX="93.0" layoutY="278.0" />
+      <Label layoutX="27.0" layoutY="119.0" text="学号" />
+      <Label layoutX="27.0" layoutY="170.0" text="姓名" />
+      <Label layoutX="27.0" layoutY="283.0" text="专业" />
+      <Button layoutX="205.0" layoutY="341.0" mnemonicParsing="false" onAction="#add" text="添加" />
+      <RadioButton layoutX="209.0" layoutY="230.0" mnemonicParsing="false" onAction="#female" text="女" toggleGroup="$sex" />
+      <Label layoutX="67.0" layoutY="39.0" text="添加学生信息">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

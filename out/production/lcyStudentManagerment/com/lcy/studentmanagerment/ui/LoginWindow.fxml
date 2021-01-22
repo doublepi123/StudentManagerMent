@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="350.0" prefWidth="382.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lcy.studentmanagerment.ui.LoginWindowControl">
+   <children>
+      <TextField fx:id="tUsername" layoutX="180.0" layoutY="119.0" />
+      <Text layoutX="42.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="用户名">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="42.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="密码">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Button fx:id="bLogin" layoutX="296.0" layoutY="275.0" mnemonicParsing="false" onAction="#Login" text="登入" />
+      <PasswordField fx:id="tPassword" layoutX="180.0" layoutY="182.0" />
+      <Button fx:id="bSubmission" layoutX="44.0" layoutY="275.0" mnemonicParsing="false" onAction="#submission" text="注册 " />
+      <Text layoutX="91.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="学生信息管理系统">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="252.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Created BY LCY" />
+      <MenuBar prefHeight="29.0" prefWidth="376.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="功能">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#submission" text="注册" />
+                  <MenuItem mnemonicParsing="false" onAction="#Login" text="登陆" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="帮助">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#help" text="使用说明" />
+                  <MenuItem mnemonicParsing="false" onAction="#about" text="关于" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

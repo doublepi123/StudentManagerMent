@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="280.0" prefWidth="336.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lcy.studentmanagerment.ui.MainWindowControl">
+   <children>
+      <MenuBar prefHeight="29.0" prefWidth="336.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="学生">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#addStudent" text="添加" />
+                  <MenuItem mnemonicParsing="false" onAction="#delete" text="删除" />
+                  <MenuItem mnemonicParsing="false" onAction="#findALL" text="模糊查询" />
+                  <MenuItem mnemonicParsing="false" onAction="#update" text="修改" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="帮助">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#about" text="关于" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <Button fx:id="exit" layoutX="209.0" layoutY="216.0" mnemonicParsing="false" onAction="#exit" text="退出" />
+      <Button layoutX="36.0" layoutY="167.0" mnemonicParsing="false" onAction="#addStudent" text="添加" />
+      <Button layoutX="107.0" layoutY="216.0" mnemonicParsing="false" onAction="#findALL" text="模糊查询" />
+      <Button layoutX="36.0" layoutY="216.0" mnemonicParsing="false" onAction="#delete" text="删除" />
+      <Button layoutX="146.0" layoutY="167.0" mnemonicParsing="false" onAction="#update" text="精确查询/修改" />
+      <Label layoutX="36.0" layoutY="42.0" text="学生信息管理系统">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label fx:id="welcome" layoutX="43.0" layoutY="105.0" text="欢迎回来，" />
+   </children>
+</AnchorPane>
