@@ -7,40 +7,28 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="391.0" prefWidth="304.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lcy.studentmanagerment.ui.UpdateStudentControl">
+<AnchorPane prefHeight="400.0" prefWidth="296.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lcy.studentmanagerment.ui.updateStudentControl">
     <children>
-        <TextField fx:id="sno" layoutX="110.0" layoutY="74.0" />
-        <TextField fx:id="sname" layoutX="110.0" layoutY="184.0" />
-        <TextField fx:id="sex" layoutX="110.0" layoutY="234.0" />
-        <Label layoutX="46.0" layoutY="74.0" text="学号">
-            <font>
-                <Font size="17.0" />
-            </font>
-        </Label>
-        <Label layoutX="46.0" layoutY="184.0" text="姓名">
-            <font>
-                <Font size="17.0" />
-            </font>
-        </Label>
-        <Label layoutX="46.0" layoutY="234.0" text="性别">
-            <font>
-                <Font size="17.0" />
-            </font>
-        </Label>
-        <TextField fx:id="sdept" layoutX="110.0" layoutY="284.0" />
-        <Label layoutX="46.0" layoutY="284.0" text="专业">
-            <font>
-                <Font size="17.0" />
-            </font>
-        </Label>
-        <Label layoutX="92.0" layoutY="12.0" prefHeight="42.0" prefWidth="154.0" text="修改学生信息">
-            <font>
-                <Font size="19.0" />
-            </font>
-        </Label>
-        <Button fx:id="bAdd" layoutX="227.0" layoutY="322.0" mnemonicParsing="false" onAction="#add" text="修改" />
-        <Button fx:id="bQuit" layoutX="48.0" layoutY="322.0" mnemonicParsing="false" onAction="#quit" text="退出" />
-        <Button fx:id="bEmpty" layoutX="136.0" layoutY="322.0" mnemonicParsing="false" onAction="#empty" text="清空" />
-      <Button layoutX="227.0" layoutY="123.0" mnemonicParsing="false" onAction="#find" text="查询" />
+        <Button fx:id="exit" layoutX="44.0" layoutY="334.0" mnemonicParsing="false" onAction="#exit" text="退出" />
+      <TextField fx:id="tID" layoutX="95.0" layoutY="88.0" />
+      <Label layoutX="40.0" layoutY="93.0" text="学号" />
+      <Label layoutX="40.0" layoutY="192.0" text="姓名" />
+      <TextField fx:id="tName" layoutX="95.0" layoutY="187.0" />
+      <TextField fx:id="tDept" layoutX="95.0" layoutY="280.0" />
+      <Label layoutX="40.0" layoutY="285.0" text="专业" />
+      <Label layoutX="40.0" layoutY="244.0" text="性别" />
+      <RadioButton fx:id="male" layoutX="95.0" layoutY="244.0" mnemonicParsing="false" onAction="#setmale" text="男">
+         <toggleGroup>
+            <ToggleGroup fx:id="sex" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="female" layoutX="211.0" layoutY="244.0" mnemonicParsing="false" onAction="#setfemale" text="女" toggleGroup="$sex" />
+      <Button layoutX="208.0" layoutY="136.0" mnemonicParsing="false" onAction="#find" text="查询" />
+      <Button layoutX="208.0" layoutY="334.0" mnemonicParsing="false" onAction="#update" text="修改" />
+      <Label layoutX="82.0" layoutY="32.0" text="修改学生信息">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
     </children>
 </AnchorPane>

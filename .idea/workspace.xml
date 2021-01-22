@@ -1,108 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="lcyStudentManagerment:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c3240b7-78ac-4b7e-ad5a-59a8b60e6c9d" name="Default Changelist" comment="12240930">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/StudentManagerment_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_32_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentManagerment_jar/StudentManagerment.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentManagerment_jar/database.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/tester/MainWindowsTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/tester/loginTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/AddCourse.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/AddCourseControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/AddSC.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/AddSCControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/AddStudentWindos.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/AddStudentWindosControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/DeleteCourse.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/DeleteCourseControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/DeleteSC.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/DeleteSCControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/DeleteStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/DeleteStudent.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/LoginWindow.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/LoginWindowControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/MainWindow.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/MainWindowControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/MessageBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/MessageBox.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/MessageBoxControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/UpdateCourse.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/UpdateCourseControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/UpdateSC.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/UpdateSCControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/UpdateStudent.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/UpdateStudentControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/ui/basefunc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManagerment/com/lcy/studentmanagerment/util/SQLHelper.class" beforeDir="false" />
-    </list>
-    <list id="4d84926e-4dae-43f9-a9ca-e4ed0742b2f8" name="Revert &quot;12240930&quot;" comment="Revert &quot;12240930&quot;&#10;&#10;This reverts commit 235904a6" />
+    <list default="true" id="862c2773-197e-4b42-bcc2-d80073c2dda5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
-    <ui_properties converted="true" />
-    <breakpoint_rules converted="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1mBICODUvS4cnhaD5gFXULOqol6" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
+  <component name="ProjectId" id="1mVk1WtomRy5W7JQF5wRKybpeBA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -111,38 +41,41 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/lcy/studentmanagerment/ui" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/lcy/studentmanagerment/ui" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/src/com/lcy/studentmanager/ui" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/lcy/studentmanager/ui" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.lcy.studentmanagerment.daoimpl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lcy.studentmanager.ui" />
+      <recent name="util" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lcy.studentmanagerment.Main" />
-      <module name="StudentManagerment" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lcy.studentmanagerment.Main" />
-      <module name="StudentManagerment" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainWindowsTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lcy.studentmanagerment.tester.MainWindowsTester" />
-      <module name="StudentManagerment" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="lcyStudentManagerment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lcy.studentmanagerment.tester.*" />
+          <option name="PATTERN" value="com.lcy.studentmanagerment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,10 +83,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="loginTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lcy.studentmanagerment.tester.loginTester" />
-      <module name="StudentManagerment" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="MainWindowTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lcy.studentmanagerment.tester.MainWindowTester" />
+      <module name="lcyStudentManagerment" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lcy.studentmanagerment.tester.*" />
@@ -167,52 +99,32 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.MainWindowsTester" />
-        <item itemvalue="Application.loginTester" />
+        <item itemvalue="Application.MainWindowTester" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1c3240b7-78ac-4b7e-ad5a-59a8b60e6c9d" name="Default Changelist" comment="12240930" />
-      <created>1608960432585</created>
+      <changelist id="862c2773-197e-4b42-bcc2-d80073c2dda5" name="Default Changelist" comment="" />
+      <created>1609585934974</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1608960432585</updated>
-      <workItem from="1608960435239" duration="163000" />
-      <workItem from="1608960700900" duration="135000" />
-      <workItem from="1608960847313" duration="320000" />
-      <workItem from="1608961175321" duration="20000" />
+      <updated>1609585934974</updated>
+      <workItem from="1609585936307" duration="12268000" />
+      <workItem from="1609659645948" duration="6592000" />
+      <workItem from="1609679022741" duration="751000" />
+      <workItem from="1609680148181" duration="564000" />
+      <workItem from="1609681711706" duration="95000" />
+      <workItem from="1609917521034" duration="2095000" />
+      <workItem from="1609923439654" duration="158000" />
+      <workItem from="1609989651119" duration="547000" />
+      <workItem from="1610192268837" duration="3107000" />
+      <workItem from="1611304346674" duration="200000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
